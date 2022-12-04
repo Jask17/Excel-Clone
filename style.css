@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+.container {
+  height: 100vh;
+  width: 100vw;
+}
+.title-bar {
+  height: 5vh;
+  width: 100vw;
+  background-color: #107c41;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+}
+.menu-bar {
+  height: 5vh;
+}
+.menu-icon-bar {
+  height: 6vh;
+}
+.formula-bar {
+  height: 5vh;
+}
