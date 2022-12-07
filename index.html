@@ -4,6 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" href="style.css" />
     <title>Online Excel Clone</title>
   </head>
@@ -17,7 +22,62 @@
         <div class="menu-item">Layout</div>
         <div class="menu-item">Help</div>
       </div>
-      <div class="menu-icon-bar"></div>
+      <div class="menu-icon-bar">
+        <button class="menu-icon-item material-symbols-outlined icon-cut">
+          content_cut
+        </button>
+        <button class="menu-icon-item material-symbols-outlined icon-copy">
+          content_copy
+        </button>
+        <button class="menu-icon-item material-symbols-outlined icon-paste">
+          content_paste
+        </button>
+        <select
+          name="font-family-selector"
+          id="font-family-selector"
+          class="font-family-selector"
+        >
+          <option value="">Calibri</option>
+          <option value="">NotoSans</option>
+        </select>
+        <button class="menu-icon-item material-symbols-outlined icon-bold">
+          format_bold
+        </button>
+        <button class="menu-icon-item material-symbols-outlined icon-italic">
+          format_italic
+        </button>
+        <button
+          class="menu-icon-item material-symbols-outlined icon-underlined"
+        >
+          format_underlined
+        </button>
+        <button
+          class="menu-icon-item material-symbols-outlined icon-align-left"
+        >
+          format_align_left
+        </button>
+        <button
+          class="menu-icon-item material-symbols-outlined icon-align-center"
+        >
+          format_align_center
+        </button>
+        <button
+          class="menu-icon-item material-symbols-outlined icon-align-center"
+        >
+          format_align_right
+        </button>
+
+        <button
+          class="menu-icon-item material-symbols-outlined icon-color-fill"
+        >
+          format_color_fill
+        </button>
+        <button
+          class="menu-icon-item material-symbols-outlined icon-color-text"
+        >
+          format_color_text
+        </button>
+      </div>
       <div class="formula-bar"></div>
       <div class="data-container">
         <div class="row-name"></div>
