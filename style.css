@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  font-size: 14;
 }
 
 * {
@@ -10,7 +11,7 @@ body {
   width: 100vw;
 }
 .title-bar {
-  height: 5vh;
+  height: 6vh;
   width: 100vw;
   background-color: #107c41;
   color: #ffffff;
@@ -21,6 +22,28 @@ body {
 }
 .menu-bar {
   height: 5vh;
+  display: flex;
+  font-size: 16;
+  background-color: #f3f2f1;
+  color: black;
+}
+.menu-item {
+  display: flex;
+  padding-inline: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.menu-item.selected {
+  background-color: #e8e8e8;
+  font-weight: bold;
+  border-bottom: solid;
+  border-color: #107c41;
+  border-width: 0.1cm;
+}
+.menu-item:hover {
+  background-color: #e8e8e8;
+  cursor: pointer;
+  font-weight: bold;
 }
 .menu-icon-bar {
   height: 6vh;
