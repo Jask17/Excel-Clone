@@ -1,90 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
-      rel="stylesheet"
-    />
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
 
-    <link rel="stylesheet" href="style.css" />
-    <title>Online Excel Clone</title>
-  </head>
-  <body>
-    <div class="container">
-      <div class="title-bar">Book-1 Excel</div>
-      <div class="menu-bar">
-        <div class="menu-item">File</div>
-        <div class="menu-item selected">Home</div>
-        <div class="menu-item">Insert</div>
-        <div class="menu-item">Layout</div>
-        <div class="menu-item">Help</div>
-      </div>
-      <div class="menu-icon-bar">
-        <button class="menu-icon-item material-symbols-outlined icon-cut">
-          content_cut
-        </button>
-        <button class="menu-icon-item material-symbols-outlined icon-copy">
-          content_copy
-        </button>
-        <button class="menu-icon-item material-symbols-outlined icon-paste">
-          content_paste
-        </button>
-        <select
-          name="font-family-selector"
-          id="font-family-selector"
-          class="font-family-selector"
-        >
-          <option value="">Calibri</option>
-          <option value="">NotoSans</option>
-        </select>
-        <button class="menu-icon-item material-symbols-outlined icon-bold">
-          format_bold
-        </button>
-        <button class="menu-icon-item material-symbols-outlined icon-italic">
-          format_italic
-        </button>
-        <button
-          class="menu-icon-item material-symbols-outlined icon-underlined"
-        >
-          format_underlined
-        </button>
-        <button
-          class="menu-icon-item material-symbols-outlined icon-align-left"
-        >
-          format_align_left
-        </button>
-        <button
-          class="menu-icon-item material-symbols-outlined icon-align-center"
-        >
-          format_align_center
-        </button>
-        <button
-          class="menu-icon-item material-symbols-outlined icon-align-center"
-        >
-          format_align_right
-        </button>
+        <link rel="stylesheet" href="style.css" />
+        <title>Online Excel Clone</title>
+    </head>
 
-        <button
-          class="menu-icon-item material-symbols-outlined icon-color-fill"
-        >
-          format_color_fill
-        </button>
-        <button
-          class="menu-icon-item material-symbols-outlined icon-color-text"
-        >
-          format_color_text
-        </button>
-      </div>
-      <div class="formula-bar"></div>
-      <div class="data-container">
-        <div class="row-name"></div>
-        <div class="column-name"></div>
-        <div class="input-cell"></div>
-      </div>
-      <div class="sheet-bar"></div>
-    </div>
-  </body>
+    <body>
+        <div class="container">
+            <div class="title-bar">book-1-excel</div>
+            <div class="menu-bar">
+                <div class="menu-item">file</div>
+                <div class="menu-item selected">home</div>
+                <div class="menu-item">insert</div>
+                <div class="menu-item">layout</div>
+                <div class="menu-item">help</div>
+            </div>
+            <div class="menu-icon-bar">
+                <button class="menu-icon-item material-symbols-outlined icon-cut">content_cut</button>
+                <button class="menu-icon-item material-symbols-outlined icon-copy">content_copy</button>
+                <button class="menu-icon-item material-symbols-outlined icon-paste">content_paste</button>
+                <select name="font-family-selector" id="font-family-selector" class="font-family-selector">
+                    <option style="font-family: Arial" value="Arial">Arial</option>
+                    <option style="font-family: Arial Narrow" value="Arial Narrow">Arial Narrow</option>
+                    <option style="font-family: Calibri" value="Calibri">Calibri</option>
+                    <option style="font-family: Courier" value="courier">Courier</option>
+                    <option style="font-family: Georgia" value="Georgia">Georgia</option>
+                    <option style="font-family: Lucida Sans" value="Lucida Sans">Lucida Sans</option>
+                    <option style="font-family: monospace" value="monospace">monospace</option>
+                    <option style="font-family: Times New Roman" value="Times New Roman">Times New Roman</option>
+                    <option style="font-family: Segoe UI" value="Segoe UI">Segoe UI</option>
+                    <option style="font-family: sans-serif" value="sans-serif">sans-serif</option>
+                </select>
+                <button class="menu-icon-item material-symbols-outlined icon-bold">format_bold</button>
+                <button class="menu-icon-item material-symbols-outlined icon-italic">format_italic</button>
+                <button class="menu-icon-item material-symbols-outlined icon-underlined">format_underlined</button>
+                <button class="menu-icon-item material-symbols-outlined icon-align-left">format_align_left</button>
+                <button class="menu-icon-item material-symbols-outlined icon-align-center">format_align_center</button>
+                <button class="menu-icon-item material-symbols-outlined icon-align-center">format_align_right</button>
+                <button class="menu-icon-item material-symbols-outlined icon-color-fill">format_color_fill</button>
+                <button class="menu-icon-item material-symbols-outlined icon-color-text">format_color_text</button>
+            </div>
+            <div class="formula-bar"></div>
+            <div class="data-container">
+                <div class="row-name"></div>
+                <div class="column-name"></div>
+                <div class="input-cell"></div>
+            </div>
+            <div class="sheet-bar"></div>
+        </div>
+    </body>
 </html>
