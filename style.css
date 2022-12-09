@@ -2,6 +2,7 @@
     box-sizing: border-box;
 }
 body {
+    padding: 0;
     margin: 0;
     font-size: 14;
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
@@ -47,7 +48,7 @@ body {
     font-weight: bold;
     border-bottom: solid;
     border-color: #107c41;
-    border-width: 0.1cm;
+    border-width: 0.5ex;
 }
 .menu-item:hover {
     background-color: #e8e8e8;
@@ -69,17 +70,72 @@ body {
     align-items: center;
     padding-inline: 5px;
     border: none;
+    font-size: larger;
 }
 .menu-icon-item:hover {
     background-color: #e8e8e8;
     cursor: default;
 }
+
 .font-family-selector {
     margin: 0.75vh;
     width: 7vw;
     font-size: 1em;
+    margin-right: 0;
+    border-radius: 0%;
 }
+.font-size-selector {
+    margin: 0.75vh;
+    width: 3vw;
+    font-size: 1em;
+    margin-left: 0;
+    border-radius: 0%;
+    border-left: none;
+}
+
+/*Formula Bar*/
 
 .formula-bar {
     height: 5vh;
+}
+
+/*Sheet-Bar*/
+
+.sheet-bar {
+    width: 100vw;
+    background-color: #f3f2f1;
+    position: fixed;
+    margin-bottom: 10px;
+    bottom: 0;
+    display: flex;
+}
+.sheet-bar-buttons {
+    border: none;
+    border-radius: none;
+}
+.sheet-bar-buttons:hover {
+    background-color: #e8e8e8;
+}
+.sheet-tabs {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+}
+.sheet-tab-button {
+    padding: 0;
+    width: 4vw;
+    border: 0;
+    border-radius: 0%;
+    text-transform: capitalize;
+    background-color: #f3f2f1;
+}
+.sheet-tab-button.selected {
+    padding: 0;
+    width: 4vw;
+    border-bottom: solid;
+    border-color: #107c41;
+    border-width: 0.5ex;
+}
+.sheet-tab-button:hover {
+    background-color: #e8e8e8;
 }
