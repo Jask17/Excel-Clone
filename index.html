@@ -24,7 +24,7 @@
                 <button class="menu-icon-item material-symbols-outlined icon-cut">content_cut</button>
                 <button class="menu-icon-item material-symbols-outlined icon-copy">content_copy</button>
                 <button class="menu-icon-item material-symbols-outlined icon-paste">content_paste</button>
-                <select name="font-family-selector" id="font-family-selector" class="font-family-selector">
+                <select class="font-family-selector">
                     <option style="font-family: Arial" value="Arial">Arial</option>
                     <option style="font-family: Arial Narrow" value="Arial Narrow">Arial Narrow</option>
                     <option style="font-family: Calibri" value="Calibri">Calibri</option>
@@ -35,6 +35,20 @@
                     <option style="font-family: Times New Roman" value="Times New Roman">Times New Roman</option>
                     <option style="font-family: Segoe UI" value="Segoe UI">Segoe UI</option>
                     <option style="font-family: sans-serif" value="sans-serif">sans-serif</option>
+                </select>
+                <select class="font-size-selector">
+                    <option value="10">10</option>
+                    <option value="12">12</option>
+                    <option value="14">14</option>
+                    <option value="16">16</option>
+                    <option value="18">18</option>
+                    <option value="20">20</option>
+                    <option value="22">22</option>
+                    <option value="24">24</option>
+                    <option value="26">26</option>
+                    <option value="28">28</option>
+                    <option value="30">30</option>
+                    <option value="32">32</option>
                 </select>
                 <button class="menu-icon-item material-symbols-outlined icon-bold">format_bold</button>
                 <button class="menu-icon-item material-symbols-outlined icon-italic">format_italic</button>
@@ -51,7 +65,16 @@
                 <div class="column-name"></div>
                 <div class="input-cell"></div>
             </div>
-            <div class="sheet-bar"></div>
+            <div class="sheet-bar">
+                <button class="sheet-bar-buttons left-scroller material-symbols-outlined">navigate_before</button>
+                <button class="sheet-bar-buttons right-scroller material-symbols-outlined">navigate_next</button>
+                <button class="sheet-bar-buttons menu material-symbols-outlined">menu</button>
+                <span class="sheet-tabs">
+                    <button class="sheet-tab-button selected">sheet1</button>
+                    <button class="sheet-tab-button">sheet2</button>
+                </span>
+                <button class="sheet-bar-buttons add material-symbols-outlined">add</button>
+            </div>
         </div>
     </body>
 </html>
