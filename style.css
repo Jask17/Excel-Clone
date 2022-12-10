@@ -42,6 +42,7 @@ body {
     padding-inline: 10px;
     justify-content: center;
     align-items: center;
+    padding-inline: 1.75ex;
 }
 .menu-item.selected {
     background-color: #e8e8e8;
@@ -68,7 +69,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-inline: 5px;
+    padding-inline: 0.75ex;
     border: none;
     font-size: larger;
 }
@@ -96,16 +97,47 @@ body {
 /*Formula Bar*/
 
 .formula-bar {
-    height: 5vh;
+    height: 4vh;
+    width: 100vw;
+    background-color: #e8e8e8;
+    display: flex;
+}
+.namebox {
+    margin-block: 0.5ex;
+    width: 8vw;
+    margin-inline: 0.5ex;
+    font-size: 1em;
+    border: #e8e8e8;
+}
+/*Data Conatiner*/
+.data-container {
+    height: 75vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+.select-all {
+    background-color: #f3f2f1;
+    height: 3vh;
+    width: 3vw;
+}
+.row-name {
+    width: 3vw;
+    height: 75vh;
+    background-color: #dad8d6;
+}
+.column-name {
+    width: 97vw;
+    height: 3vh;
+    background-color: #f3f2f1;
 }
 
 /*Sheet-Bar*/
 
 .sheet-bar {
     width: 100vw;
+    height: 5vh;
     background-color: #f3f2f1;
     position: fixed;
-    margin-bottom: 10px;
     bottom: 0;
     display: flex;
 }
