@@ -109,7 +109,9 @@ body {
     font-size: 1em;
     border: #e8e8e8;
 }
+
 /*Data Conatiner*/
+
 .data-container {
     height: 75vh;
     display: flex;
@@ -118,17 +120,79 @@ body {
 .select-all {
     background-color: #f3f2f1;
     height: 3vh;
-    width: 3vw;
+    width: 2.5vw;
+    display: flex;
 }
-.row-name {
-    width: 3vw;
-    height: 75vh;
-    background-color: #dad8d6;
+.select-all-button {
+    width: 100%;
+    margin-top: 0.5ex;
+    border: 0;
+    border-right: solid;
+    border-bottom: solid;
+    border-width: thin;
+    border-color: silver;
 }
-.column-name {
+.column-name-container {
     width: 97vw;
     height: 3vh;
     background-color: #f3f2f1;
+    display: flex;
+}
+.column-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    width: 5vw;
+    font-weight: lighter;
+    margin-top: 0.5ex;
+    border-right-width: thin;
+    border-right-style: solid;
+    border-right-color: silver;
+
+    border-bottom-style: solid;
+    border-bottom-width: thin;
+    border-bottom-color: black;
+}
+.column-name:hover {
+    background-color: #e8e8e8;
+}
+
+.row-name-container {
+    width: 2.5vw;
+    height: 75vh;
+    background-color: #f3f2f1;
+    display: flex;
+    flex-direction: column;
+}
+.row-name {
+    height: 3ex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: lighter;
+    border-bottom-style: solid;
+    border-bottom-width: thin;
+    border-bottom-color: silver;
+    border-right-color: black;
+    border-right-style: solid;
+    border-right-width: thin;
+}
+.row-name:hover {
+    background-color: #e8e8e8;
+}
+
+.input-cell-container {
+    height: 72vh;
+    width: 96vw;
+}
+.input-cell {
+    height: 3ex;
+    width: 5vw;
+    border-right: solid;
+    border-bottom: solid;
+    border-width: thin;
+    border-color: darkgrey;
 }
 
 /*Sheet-Bar*/
