@@ -143,7 +143,7 @@ body {
     justify-content: center;
     align-items: center;
     text-transform: uppercase;
-    width: 5vw;
+    min-width: 5vw;
     font-weight: lighter;
     margin-top: 0.5ex;
     border-right-width: thin;
@@ -166,7 +166,8 @@ body {
     flex-direction: column;
 }
 .row-name {
-    height: 3ex;
+    width: 2.5vw;
+    min-height: 2.5vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -186,9 +187,12 @@ body {
     height: 72vh;
     width: 96vw;
 }
+.input-cell-row {
+    display: flex;
+}
 .input-cell {
-    height: 3ex;
-    width: 5vw;
+    min-height: 2.5vh;
+    min-width: 5vw;
     border-right: solid;
     border-bottom: solid;
     border-width: thin;
