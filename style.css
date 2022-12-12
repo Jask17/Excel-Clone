@@ -4,7 +4,7 @@
 body {
     padding: 0;
     margin: 0;
-    font-size: 14;
+    font-size: 16px;
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 .material-symbols-outlined {
@@ -22,7 +22,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: large;
+    font-size: 1.25rem;
     font-weight: bold;
     text-transform: capitalize;
 }
@@ -32,17 +32,16 @@ body {
 .menu-bar {
     height: 5vh;
     display: flex;
-    font-size: 16;
+    font-size: 1rem;
     background-color: #f3f2f1;
     color: black;
     text-transform: capitalize;
 }
 .menu-item {
     display: flex;
-    padding-inline: 10px;
+    padding-inline: 1.75ex;
     justify-content: center;
     align-items: center;
-    padding-inline: 1.75ex;
 }
 .menu-item.selected {
     background-color: #e8e8e8;
@@ -71,7 +70,7 @@ body {
     align-items: center;
     padding-inline: 0.75ex;
     border: none;
-    font-size: larger;
+    font-size: 100%;
 }
 .menu-icon-item:hover {
     background-color: #e8e8e8;
@@ -79,14 +78,14 @@ body {
 }
 
 .font-family-selector {
-    margin: 0.75vh;
+    margin: 0.75ex;
     width: 7vw;
     font-size: 1em;
     margin-right: 0;
     border-radius: 0%;
 }
 .font-size-selector {
-    margin: 0.75vh;
+    margin: 0.75ex;
     width: 3vw;
     font-size: 1em;
     margin-left: 0;
@@ -160,7 +159,7 @@ body {
 
 .row-name-container {
     width: 2.5vw;
-    height: 75vh;
+    min-height: 75vh;
     background-color: #f3f2f1;
     display: flex;
     flex-direction: column;
@@ -184,7 +183,7 @@ body {
 }
 
 .input-cell-container {
-    height: 72vh;
+    min-height: 75vh;
     width: 96vw;
 }
 .input-cell-row {
