@@ -23,8 +23,10 @@ $(document).ready(function () {
     for (let i = 1; i <= 100; i++) {
         let row = $(`<div class="input-cell-row"></div>`);
         for (let j = 1; j <= 100; j++) {
-            // let colCode = $(`.colId-${j}`).attr("id").split("-")[1];
-            let cell = $(`<div class="input-cell" id="rowId-${i}-colId-${j}" contenteditable="true"></div>`);
+            let colCode = $(`#colId-${j}`).attr("data").split("-")[0];
+            let cell = $(
+                `<div class="input-cell" id="rowId-${i}-colId-${j}" contenteditable="true" data="colCode-${colCode}"></div>`
+            );
             row.append(cell);
         }
         $(".input-cell-container").append(row);
