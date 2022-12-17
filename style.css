@@ -17,7 +17,7 @@ body {
 .title-bar {
     height: 6vh;
     width: 100vw;
-    background-color: #064273;
+    background-color: #107c41;
     color: #ffffff;
     display: flex;
     justify-content: center;
@@ -48,7 +48,7 @@ body {
     background-color: #e8e8e8;
     font-weight: bold;
     border-bottom: solid;
-    border-color: #064273;
+    border-color: #107c41;
     border-width: 0.2rem;
 }
 .menu-item:hover {
@@ -106,7 +106,7 @@ body {
 .cell-name {
     background-color: #ffffff;
     margin: 0.2rem;
-    align-self: stretch;
+    height: 1.4rem;
     width: 8rem;
     border-width: thin;
     border-style: solid;
@@ -115,7 +115,7 @@ body {
 .formula-buttons {
     width: 6rem;
     align-items: center;
-    align-self: stretch;
+    height: 1.4rem;
     background-color: #ffffff;
     margin: 0.2rem;
     display: flex;
@@ -135,10 +135,11 @@ body {
 }
 .formula-input {
     flex-grow: 100;
-    align-self: stretch;
+    height: 1.4rem;
     margin: 0.2rem;
     background-color: #ffffff;
     padding-inline: 0.3rem;
+    padding-block: 0.1rem;
 
     border-width: thin;
     border-style: solid;
@@ -233,7 +234,7 @@ body {
 
     border-right: solid;
     border-bottom: solid;
-    border-width: thin;
+    border-width: 1px;
     border-color: darkgrey;
     outline: none;
 }
@@ -281,7 +282,7 @@ body {
     padding: 0;
     width: 4vw;
     border-bottom: solid;
-    border-color: #064273;
+    border-color: #107c41;
     border-width: 0.5ex;
 }
 .sheet-tab-button:hover {
