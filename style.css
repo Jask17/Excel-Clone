@@ -155,6 +155,7 @@ body {
     display: flex;
     flex-direction: row;
     overflow: scroll;
+    overflow-x: auto;
 }
 .data-container-one {
 }
